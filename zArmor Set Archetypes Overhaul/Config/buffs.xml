@@ -532,12 +532,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_LumberjackBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_EnforcerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- NEW: This effect group reduces headshot damage by 50% to encourage limb targeting. -->
@@ -669,12 +669,12 @@
 			<update_rate value="1"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_LumberjackBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_PreacherBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- NEW: COMBAT TRACKING TRIGGER -->
@@ -799,12 +799,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_LumberjackBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RogueBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Eagle Eye Trigger">
@@ -928,12 +928,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AthleticBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_LumberjackBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- Quality 1 -->
@@ -1048,12 +1048,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_PreacherBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_EnforcerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- TRIGGER: When you take damage, gain a stack of "Crime" -->
@@ -1121,12 +1121,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_EnforcerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RogueBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="[mod] Agent - Escape Artist Trigger">
@@ -1214,12 +1214,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AthleticBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_EnforcerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -1267,12 +1267,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_PreacherBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RogueBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- #################################################################### -->
@@ -1404,12 +1404,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_PreacherBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AthleticBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -1491,12 +1491,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RogueBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AthleticBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- [mod] FREERUNNER: LEAP OF FAITH ARMING MECHANIC -->
@@ -1597,12 +1597,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_FarmerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RangerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- UNLOCKS the recipe for the Homestead Fire -->
@@ -1649,12 +1649,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_CommandoBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_FarmerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- This group activates the Gunner shot tracking system when the Militia set is worn. -->
@@ -1718,12 +1718,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_BikerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_FarmerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- [mod] REDNECK: "HOLD MY BEER" TRIGGER -->
@@ -1837,12 +1837,12 @@
 			<update_rate value="1"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_FarmerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_ScavengerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -1907,12 +1907,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_FarmerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AssassinBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- ACTIVE ABILITY: GRAVE ROBBER -->
@@ -2017,12 +2017,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_CommandoBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RangerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- [mod] SPECIAL FORCES: LAST STAND TRIGGER -->
@@ -2090,12 +2090,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_BikerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RangerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -2166,12 +2166,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_ScavengerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RangerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- Wild Harvesting: Chance to find a special herb when gathering wild plants. -->
@@ -2245,12 +2245,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RangerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AssassinBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -2333,12 +2333,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_BikerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_CommandoBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -2403,12 +2403,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_CommandoBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_ScavengerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -2422,7 +2422,7 @@
 				</triggered_effect>
 				<triggered_effect trigger="onSelfExplosionDamagedOther" action="AddBuff" target="other" buff="buffShocked">
 					<requirement name="!EntityTagCompare" target="other" tags="trader,infernal"/>
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="19"/>
 				</triggered_effect>
 				<passive_effect name="StaminaMax" operation="base_add" value="10"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="75">
@@ -2581,12 +2581,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_CommandoBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AssassinBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- This effect group "arms" the shrapnel shot by giving the player the buff on a kill. -->
@@ -2665,12 +2665,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_BikerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_ScavengerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- #################################################################### -->
@@ -2776,12 +2776,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_BikerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AssassinBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="[mod] Saboteur - Demolitionist's Touch Trigger">
@@ -2847,12 +2847,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_ScavengerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_AssassinBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -3033,12 +3033,12 @@
 
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NerdBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RaiderBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -3169,12 +3169,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NerdBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_MinerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -3300,12 +3300,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NerdBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NomadBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -3393,12 +3393,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_MinerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RaiderBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="[mod] Pick Specialist - Gold Rush Trigger">
@@ -3471,12 +3471,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NomadBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_RaiderBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group>
@@ -3608,7 +3608,7 @@
 				<triggered_effect trigger="onSelfAttackedOther" action="Ragdoll" target="other" duration=".2" force="800">
 					<requirement name="ItemHasTags" tags="perkGunslinger"/>
 					<requirement name="!EntityTagCompare" target="other" tags="trader,infernal"/>
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="19"/>
 				</triggered_effect>
 				<passive_effect name="GeneralDamageResist" operation="base_add" value="0.75">
 					<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
@@ -3625,12 +3625,12 @@
 			<display_value value="xxx"/>
 			<effect_group name="Badge Drop on Kill 1">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_NomadBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<effect_group name="Badge Drop on Kill 2">
 				<triggered_effect trigger="onSelfKilledOther" action="CallGameEvent" event="action_give_MinerBadge">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,99" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 			<!-- ACTIVE ABILITY: MYSTERIOUS STRANGER -->
@@ -5115,7 +5115,7 @@
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="subtract" value="8"/>
 				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,3" value="2,6"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire">
-					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="19"/>
 				</triggered_effect>
 			</effect_group>
 		</buff>
