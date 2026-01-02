@@ -325,6 +325,7 @@
 	<!--Would have been better if this works than the armor changes-->
 	<append xpath="/items/item[@name='gunHandgunT0PipePistol']/property[@name='Tags']/@value">,pipe,healgun,chemicalGun
 	</append>
+    <set xpath="/items/item[@name='gunHandgunT0PipePistol']/property[@name='Damage']" value="0"/>
 	<append xpath="/items/item[@name='gunShotgunT0PipeShotgun']/property[@name='Tags']/@value">,pipe
 	</append>
 	<append xpath="/items/item[@name='gunRifleT0PipeRifle']/property[@name='Tags']/@value">,pipe
